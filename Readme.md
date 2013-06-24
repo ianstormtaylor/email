@@ -1,4 +1,3 @@
-
 # email
 
   Parse an email address into its components, based on [component/url](https://github.com/component/url).
@@ -14,7 +13,7 @@ var email = require('email');
 email.parse('johnny+nospam@example.com');
 ```
 
-```json
+```js
 {
   local: 'johnny+nospam',
   name: 'johnny',
