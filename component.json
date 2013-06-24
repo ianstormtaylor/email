@@ -1,0 +1,13 @@
+{
+  "name": "email",
+  "repo": "ianstormtaylor/email",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Parse an email address into its components, based on component/url.",
+  "keywords": ["email", "address", "parse"],
+  "dependencies": {},
+  "development": {
+    "component/assert": "*"
+  },
+  "scripts": ["index.js"]
+}
