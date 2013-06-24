@@ -19,8 +19,8 @@ exports.parse = function (email) {
   return {
     local : parts[0],
     name : name,
-    filter : filter,
-    domain : parts[1]
+    filter : filter || '',
+    domain : parts[1] || ''
   };
 };
 
